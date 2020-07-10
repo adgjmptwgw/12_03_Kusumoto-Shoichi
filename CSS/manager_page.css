@@ -1,0 +1,33 @@
+body{
+  background-image: url(https://baigie.me/officialblog/wp-content/uploads/2020/06/%E7%AE%A1%E7%90%86%E7%94%BB%E9%9D%A2.png);
+}
+
+h1{
+  text-align: center;
+}
+
+.mail{
+  position: absolute;
+  top: 290px;
+  left: 450px;
+}
+
+.chat{
+  position: absolute;
+  top: 120px;
+  left: 440px;
+}
+
+a{
+  text-decoration: none;
+  background-color: cyan;
+  opacity: 0.7;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: black;
+}
+
+a:hover{
+  opacity: 1;
+}

@@ -1,0 +1,40 @@
+
+body{
+  margin: 0;
+}
+
+header{ /* TOPページのheader画像 */
+  background-image: url(https://www.tepco.co.jp/kk-np/photo/images/img_160713_01.jpg);
+  background-size: cover;
+  height: 650px;
+  width: auto;
+}
+
+nav{ /* 各ナビ */
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_text{
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.main_text{
+  text-align: center;
+}
+
+ul{
+  text-align: left;
+  margin-left: 400px;
+}
+
+.valve_img{
+  width: 500px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 500px;
+}

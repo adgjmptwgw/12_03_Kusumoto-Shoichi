@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+}
+
+nav{ /* 各ナビ */
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+a{  /* aタグの下線を全て消去 */
+  text-decoration: none;
+}
+
+.main_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  width: 500px;
+  height: 30px;
+}
+
+#question{
+  height: 200px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  margin: auto 20px;
+}
